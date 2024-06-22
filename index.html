@@ -3,69 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ceļojumu Galamērķi</title>
+    <title>Ceļojumi uz Spāniju, Itāliju un Portugāli</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f4f4; }
-        .container { max-width: 1200px; margin: auto; padding: 20px; }
-        .country { background: white; margin-bottom: 20px; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        .country img { width: 100%; height: auto; border-radius: 8px; }
-        .small-image {
-        max-width: 100%; /* Attēls būs maksimāli plats tikai tik, cik plats ir vecāka elements (parasti lapas platums) */
-        height: auto; /* Augstums pielāgojas automātiski, lai saglabātu attēla proporcijas */}
-        h1, h2 { color: #333; }
-        h3 { color: #555; }
-        <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .country-section {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .country-title {
+            font-size: 24px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .destination {
+            margin-bottom: 20px;
+        }
+        .destination h2 {
+            font-size: 20px;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .destination p {
+            color: #666;
+        }
+        .destination img {
+            width: 500px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Ceļojumu Galamērķi</h1>
-        <div class="country">
-            <h2>Portugāle</h2>
-            <img src="https://images.pexels.com/photos/2549156/pexels-photo-2549156.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Portugāles ainava" width="100" height="50">
-            <div class="info">
-                <h3>Populārākie tūrisma objekti</h3>
-                <p>Lisabona, Porto, Sintra, Algarve.</p>
-                <h3>Ceļojumu padomi</h3>
-                <p>Apmeklē slavenās pludmales un vēsturiskās vietas.</p>
-                <h3>Kultūras īpatnības</h3>
-                <p>Portugāļi ir ļoti viesmīlīgi un mīl savu fado mūziku.</p>
-                <h3>Ēdienu ieteikumi</h3>
-                <p>Bacalhau, pastel de nata, caldo verde.</p>
-            </div>
-        </div>
+    <h1>Ceļojumi uz Spāniju, Itāliju un Portugāli</h1>
 
-        <div class="country">
-            <h2>Spānija</h2>
-            <img src="https://images.pexels.com/photos/819764/pexels-photo-819764.jpeg" alt="Spānijas ainava" width="100" height="50">
-                <div class="info">
-                <h3>Populārākie tūrisma objekti</h3>
-                <p>Barselona, Madride, Sevilla, Valensija.</p>
-                <h3>Ceļojumu padomi</h3>
-                <p>Apmeklē slavenos muzejus un pludmales, izbaudi tapas.</p>
-                <h3>Kultūras īpatnības</h3>
-                <p>Spāņi ir ļoti sociāli un mīl savus festivālus.</p>
-                <h3>Ēdienu ieteikumi</h3>
-                <p>Paella, tapas, gazpacho.</p>
-            </div>
+    <div class="country-section">
+        <div class="country-title">Spānija</div>
+        <div class="destination">
+            <img src="spanija.jpg" alt="Spānija">
+            <h2>Populārākie galamērķi</h2>
+            <p>Barselona, Madridē, Seviļa, Kosta Brava.</p>
         </div>
-
-        <div class="country">
-            <h2>Itālija</h2>
-            <img src="https://images.unsplash.com/photo-1669582064130-67ca52f7b222?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Itālijas ainava" width="500" height="300">
-            <div class="info">
-                <h3>Populārākie tūrisma objekti</h3>
-                <p>Roma, Florence, Venēcija, Milāna.</p>
-                <h3>Ceļojumu padomi</h3>
-                <p>Apmeklē slavenās vēsturiskās vietas un izbaudi itāļu virtuvi.</p>
-                <h3>Kultūras īpatnības</h3>
-                <p>Itāļi ir ļoti ģimenes orientēti un mīl labu ēdienu.</p>
-                <h3>Ēdienu ieteikumi</h3>
-                <p>Pizza, pasta, gelato.</p>
-            </div>
+        <div class="destination">
+            <h2>Ceļojumu padomi</h2>
+            <p>Plānojiet apmeklēt Sagrada Família agrīnās rīta stundās, lai izvairītos no lielākajām apmeklētāju grupām.</p>
         </div>
-
-        <!-- Turpini ar citām valstīm, pievienojot attēlus līdzīgi -->
+        <div class="destination">
+            <h2>Kultūras īpatnības</h2>
+            <p>Flamenco dejas, tapas kultūra, arhitektūras brīnumi Gaudí stilā.</p>
+        </div>
+        <div class="destination">
+            <h2>Ēdienu īpatnības</h2>
+            <p>Paella, jamon (griezta cūkgaļa), churros ar šokolādi.</p>
+        </div>
     </div>
+
+    <div class="country-section">
+        <div class="country-title">Itālija</div>
+        <div class="destination">
+            <img src="italija.jpg" alt="Itālija">
+            <h2>Populārākie galamērķi</h2>
+            <p>Roma, Florences, Venēcija, Toskāna.</p>
+        </div>
+        <div class="destination">
+            <h2>Ceļojumu padomi</h2>
+            <p>Rezervējiet vēlamo datumu ieejai Vatikāna muzejās jau iepriekš, lai izvairītos no garām rindām.</p>
+        </div>
+        <div class="destination">
+            <h2>Kultūras īpatnības</h2>
+            <p>Mākslas bagātības, antīkās ēkas, pastaunieki un itāliešu virtuve.</p>
+        </div>
+        <div class="destination">
+            <h2>Ēdienu īpatnības</h2>
+            <p>Pasta, pizza, gelato (itāļu saldējums), espresso.</p>
+        </div>
+    </div>
+
+    <div class="country-section">
+        <div class="country-title">Portugāle</div>
+        <div class="destination">
+            <img src="portugale.jpg" alt="Portugāle">
+            <h2>Populārākie galamērķi</h2>
+            <p>Lisabona, Porto, Algarve, Madeira sala.</p>
+        </div>
+        <div class="destination">
+            <h2>Ceļojumu padomi</h2>
+            <p>Izbaudiet tramvaja braucienu pa Lisabonas kalniem, lai apmeklētu Alfama rajonu.</p>
+        </div>
+        <div class="destination">
+            <h2>Kultūras īpatnības</h2>
+            <p>Fado mūzika, keramikas izstrādājumi, Atlantijas okeāna ietekme.</p>
+        </div>
+        <div class="destination">
+            <h2>Ēdienu īpatnības</h2>
+            <p>Bacalhau (žāvēta kabelis), pastēteis sardīnijas, pastel de nata (krējuma mīklas cepumi).</p>
+        </div>
+    </div>
+
 </body>
 </html>
